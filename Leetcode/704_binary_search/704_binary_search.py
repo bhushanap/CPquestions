@@ -16,8 +16,6 @@ class Solution:
             if first>=last-1:
                 if target==nums[first]:
                     return first
-                elif first==last:
-                    return -1
                 elif target==nums[last]:
                     return last
                 else:
